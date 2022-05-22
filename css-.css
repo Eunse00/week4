@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "나눔손글씨 성실체";
+}
+
+body {
+  padding: 20px;
+  min-width: 320px;
+}
+
+
+header, .sidebar {
+  font-size: 3vw;
+  border: solid 5px pink;
+  text-align: center;
+  padding: 40px;
+  color: pink;
+}
+
+main {
+  display: flex;
+  height: calc(100% - 60px);
+  margin-top: 10px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  min-width: max-content;
+  border: 5px solid gray;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid lightgreen;
+  margin-left: 20px;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+}
